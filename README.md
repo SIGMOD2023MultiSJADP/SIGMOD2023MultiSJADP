@@ -123,7 +123,7 @@ The `PMSJA.py.py` has four parameters
 
 For example,
  ```
-python PMSJA.py -I ../Information/Graph/Q9_stackoverflow_a2q -e 0.8 -d 0.0000001
+python PMSJA.py -I ../Information/Graph/Q9_stackoverflow_a2q -e 2 -d 0.0000001
 ```
 The `PMSJASJF.py` has the same parameters.
 
@@ -142,7 +142,7 @@ The `R2T.py` has six parameters
 
 For example,
  ```
-python R2T.py -I .../Information/Graph/Q9_stackoverflow_a2q -e 0.8 -d 0.0000001 -b 0.1 -p 24  -G 1000
+python R2T.py -I .../Information/Graph/Q9_stackoverflow_a2q -e 2 -d 0.0000001 -b 0.1 -p 24  -G 1000000
 ```
 
 ### OptMean
@@ -157,5 +157,5 @@ The OptMean is implemented by `./Code/OptMean.py`.
 
 For example,
  ```
-python OptMean.py -I .../Information/Graph/Q9_stackoverflow_a2q -e 0.8 -d 0.0000001 -b 0.1 -G 1000
+python OptMean.py -I .../Information/Graph/Q9_stackoverflow_a2q -e 2 -d 0.0000001 -b 0.1 -G 1000000
 ```
